@@ -257,10 +257,8 @@ class Whatsappbussines extends Module
     */
     public function hookBackOfficeHeader()
     {
-        if (Tools::getValue('module_name') == $this->name) {
-            $this->context->controller->addJS($this->_path.'views/js/back.js');
-            $this->context->controller->addCSS($this->_path.'views/css/back.css');
-        }
+        $this->context->controller->addJS($this->_path.'views/js/back.js');
+        $this->context->controller->addCSS($this->_path.'views/css/back.css');
     }
 
     /**
