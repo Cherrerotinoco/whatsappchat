@@ -1,0 +1,129 @@
+/**
+* 2007-2020 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2020 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+.text-preview {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.frame-preview svg {
+    max-width: 45px;
+}
+.frame-preview {
+    min-width: 250px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+}
+#module_form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#whatsapp-custom-button {
+    width: 200px;
+    position: absolute;
+    border-radius: 25px;
+    padding: 12px 24px;
+    color: #000000;
+    font-weight: bold;
+    color: #fff;
+    background-color: #56cc64;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.06), 0 2px 32px 0 rgba(0,0,0,0.16);
+}
+#whatsapp-form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#whatsapp-custom-button #body-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#whatsapp-custom-button span {
+    transition: 0.25s;
+    padding-left: 7px;
+    text-align: center;
+}
+#whatsapp-custom-button #body-whatsapp {
+    margin-bottom: 0px;
+    transition: 0.3s ease-out;
+}
+#whatsapp-custom-button #body-whatsapp {
+    margin-bottom: 7.5px;
+}
+#whatsapp-custom-button form,
+#whatsapp-custom-button input,
+#whatsapp-custom-button button {
+    transform: translateX(0px);
+    transition: 0.3s ease-out;
+    max-height: 200px;
+    max-width: 200px;
+    opacity: 1;
+}
+#whatsapp-custom-button input {
+    padding: 5px;
+}
+#whatsapp-custom-button input {
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+#whatsapp-custom-button button {
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    flex-basis: auto;
+    flex-grow: 1;
+    background-color: white;
+}
+#whatsapp-form * {
+    margin: 2.5px;
+}
+.close-button {
+    position: absolute;
+    top: -5px;
+    right: 0; 
+}
+.close-button:hover {
+    cursor: pointer;
+}
+.close-button:after {
+    content: 'X';
+    display: block;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1px 5px 1px 5px;
+    box-shadow: 0px 0px 1px #737373;
+}
