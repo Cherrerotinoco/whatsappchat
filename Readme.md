@@ -1,5 +1,5 @@
 # WhatssApp Chat
-This module allow your users to get in contact with you by WhatsApp
+This module allow your users to get in contact with you by WhatsApp.
 
 ## How it Works?
 It´s just a simple pop-up button where the user can send a custom message to the owner of the website directly in WhatsApp.  
