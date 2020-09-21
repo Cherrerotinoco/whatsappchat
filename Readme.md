@@ -13,7 +13,7 @@ When the user submit the message, WhatsApp API get the parameters and allow the 
 
 #### Screenshots of the Front-End:  
 ![Screenshot of the Front-End!](/screenshots/front.png "Front Preview")
-![Screenshot of the Front-End!](/screenshots/front-hover.png "Front Preview")
+![Screenshot of the Front-End!](/screenshots/front-hover.png "Front Preview - On Hover")
 
 #### Screenshot of the Responsive Front-End:  
 ![Screenshot of the Front-End!](/screenshots/responsive.png "Responsive Front Preview")
